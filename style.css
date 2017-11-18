@@ -1,0 +1,104 @@
+@charset "utf-8";
+
+/*样式重置*/
+body,h1,h2,h3,h4,h5,dl,dd,ul,ol,form,input,textarea,th,td,select{
+    margin:0;
+    padding:0;
+}
+
+em{
+    font-style: normal;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    border:none;
+    vertical-align: top;
+}
+table{
+    border-collapse:collapse;
+}
+input,textarea{
+    outline:none;
+}
+textarea{
+    resize: none;
+    overflow: auto;
+}
+body{
+    font-size: 12px;
+    font-family: Arial;
+}
+/*样式重置结束*/
+
+.clear{
+    zoom:1;
+}
+.clear:after{
+    content: '.';
+    display: block;
+    clear: both;
+    visibility: hidden;
+    height:0;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float:right;
+}
+
+/*渐变*/
+.gradient{
+    width:200px;
+    height:200px;
+    border:1px solid #333;
+    background:-webkit-linear-gradient(top,#ffffff,#f8f8f8);
+    background:-moz-linear-gradient(top,#ffffff,#f8f8f8);
+    background:-ms-linear-gradient(top,#ffffff,#f8f8f8);
+    background:linear-gradient(top,#ffffff,#f8f8f8);
+    background:linear-gradient(top,#ffffff,#f8f8f8);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Gradient(enabled=bEnabled,startColorStr=#ffffff,endColorStr=#f8f8f8) ";
+    +background:#f9f9f9;
+
+}
+
+/*layout*/
+
+#header{
+    heigth:30px;
+}
+#nav{
+
+}
+
+#search{
+
+}
+.content{
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
