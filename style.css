@@ -31,7 +31,7 @@ textarea{
 }
 body{
     font-size: 12px;
-    font-family: Arial;
+    font-family: Arial, fantasy;
 }
 /*样式重置结束*/
 
@@ -54,9 +54,6 @@ body{
 
 /*渐变*/
 .gradient{
-    width:200px;
-    height:200px;
-    border:1px solid #333;
     background:-webkit-linear-gradient(top,#ffffff,#f8f8f8);
     background:-moz-linear-gradient(top,#ffffff,#f8f8f8);
     background:-ms-linear-gradient(top,#ffffff,#f8f8f8);
@@ -68,37 +65,167 @@ body{
 }
 
 /*layout*/
-
-#header{
-    heigth:30px;
-}
-#nav{
+#header, #nav{
+    width:960px;
+    margin:0 auto;
 
 }
-
-#search{
+#search, .section, .side_section, .ad_border, #footer{
+    border:1px solid #dbdbdb;
+    border-radius: 6px;
+}
+ .main_ad, .side_ad, .ad_border, .side_section, #search{
+    margin-bottom:10px;
+}
+body {
+    margin-bottom: 30px;
+}
+#header {
+    height:30px;
+    border-radius:0 0 6px 6px;
+    background-color: gray;
 
 }
-.content{
+#nav {
+
+    height:100px;
+    background-color: dodgerblue;
+}
+
+#search {
+    width:958px;
+    height:114px;
+    margin:0 auto;
+    background-color: #c40000;
+}
+.content {
+    width:960px;
+    margin:0 auto;
 
 }
 
+.main {
+    width:710px;
+}
+
+/*在外包层解决下边距10px*/
+.main_warp{
+    padding-bottom: 10px;
+}
+.section {
+
+    width:318px;
+    padding: 0 15px;
+    height:200px;/*233333*/
+
+}
+.options {
+    width:350px;
+    height:200px;
 
 
+}
+.main_ad {
+
+    border-radius: 6px;
+    overflow: hidden;
+    height:50px;
+
+}
+
+.side {
+    width:240px;
+    border-radius: 6px;
+
+}
+.side_section {
+
+    height:60px;
+    padding:0 12px;
+
+}
+.side_ad {
+    border-radius: 6px;
+    overflow: hidden;
+
+}
+#footer {
+    width:958px;/*有边框*/
+    height:78px;
+    margin:0px auto;
+    background-color: chartreuse;
+
+}
+/*广告边框*/
+.ad_border {
+    width:238px;
+    overflow: hidden;
+
+}
+
+.options .nav{
+    height:34px;
+
+}
+.options .nav li{
+    width:172px;
+    height:33px;
+    border:1px solid #dbdbdb;
+    border-bottom: none;
+    border-radius: 6px 6px 0 0 ;
+}
+.options .nav .active{
+    width:172px;
+    height:34px;
+    background-color: #ffffff;
+}
+.options .con{
+    width:348px;
+    height:80px;
+    border:1px solid #dbdbdb;
+    border-radius: 0 0 6px 6px;
+}
+
+#header .city {
+    float: left;
+    padding:5px  20px;
+}
 
 
+#header .city a{
 
+    border-radius: 3px;
+    border:1px solid #e5e5e5;
+    box-shadow: 1px 1px 0 #e5e5e5;
+    height:18px;
+    display: inline-block;
+    line-height: 18px;
+    background-color: #ffffff;
+    color: #999;
+}
+#header .city .active{
+    color: #d60d03;
+}
 
+#header .city a:hover{
+    background-color: #f1f1f1;
+}
+#header .link{
+    float: right;
+    line-height: 30px;
+    padding-right: 20px;
+    color: #d5d5d5;
+    word-spacing:4px;
 
+}
 
+#header .link a{
+    color: #666;
+}
+#header .link a:hover{
+    color: #c40000;
+}
 
-
-
-
-
-
-
-
-
-
-
+.header_logo{
+    vertical-align: middle;
+}
