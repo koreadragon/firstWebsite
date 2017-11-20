@@ -89,14 +89,15 @@ body {
 #nav {
 
     height:100px;
-    background-color: dodgerblue;
+    position: relative;
+
 }
 
 #search {
     width:958px;
     height:114px;
     margin:0 auto;
-    background-color: #c40000;
+
 }
 .content {
     width:960px;
@@ -229,3 +230,48 @@ body {
 .header_logo{
     vertical-align: middle;
 }
+
+#nav ul{
+    position: absolute;
+    top:10px;
+}
+#nav li{
+    float: left;
+
+}
+#nav li a{
+    display: block;
+    width:66px;
+    text-align: center;
+    color: #000000;
+
+}
+
+#nav li a:hover{
+    color: #c40000;
+    font-size: 13px;
+}
+#nav .nav_1{
+    left:11px;
+}
+#nav .nav_2{
+    right:11px;
+}
+
+#nav h1{
+    width:236px;
+    height:81px;
+    margin:0 auto;
+    position: relative;
+    top:10px;
+
+}
+
+#nav ul img{
+    width:66px;
+    height:66px;
+}
+
+
+
+
