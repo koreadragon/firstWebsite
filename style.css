@@ -234,7 +234,7 @@ body {
 
 #nav ul{
     position: absolute;
-    top:10px;
+    top:20px;
 }
 #nav li{
     float: left;
@@ -245,6 +245,7 @@ body {
     width:66px;
     text-align: center;
     color: #333;
+
 
 }
 
@@ -260,17 +261,18 @@ body {
 }
 
 #nav h1{
-    width:236px;
-    height:81px;
+    width:204px;
+    height:70px;
     margin:0 auto;
     position: relative;
-    top:10px;
+    top:15px;
 
 }
 
 #nav ul img{
-    width:66px;
-    height:66px;
+    width:40px;
+    height:40px;
+    margin:auto 13px;
 }
 
 #search .bar{
