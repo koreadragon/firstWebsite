@@ -97,6 +97,7 @@ body {
     width:958px;
     height:114px;
     margin:0 auto;
+    position: relative;
 
 }
 .content {
@@ -272,6 +273,45 @@ body {
     height:66px;
 }
 
+#search .bar{
+    width:958px;/*父高度*/
+    height:64px;
+    border:1px solid #c40d0e;
+    position: absolute;
+    top:16px;
+    left:-1px;
+    border-radius: 5px;
+    background-color: #e21c01;
+    box-shadow: 2px 3px 2px #e3e3e3;
+}
 
+#search .menu{
 
+}
+#search .menu li{
+    float: left;
+    width:78px;
+    height: 25px;
+    margin-right: 1px;
+    display: inline-block;
+    border:1px solid #f8d0bf;
+    text-align: center;
+    line-height: 25px;
+    font-size: 14px;
+    border-radius: 5px 5px 0 0 ;
+    border-bottom: none;
+}
 
+#search .menu{
+    position: absolute;
+    left:226px;
+    top: -27px;
+}
+#search .menu .active{
+    height:27px;
+    background-color: #e21c01;
+    color: #fff;
+    font-weight: bold;
+    position: relative;
+    top:-1px;
+}
