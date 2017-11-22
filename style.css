@@ -413,7 +413,14 @@ body {
     font-size: 18px;
     color: #d90000;
     cursor: pointer;
+    position:relative;
 
+}
+
+.video_title sup{
+    position: absolute;
+    font-family: '宋体';
+    top:-10px;
 }
 
 .video{
@@ -423,7 +430,7 @@ body {
     padding-left: 75px;
     height:78px;
     background:url("imgs/main/hot_sale.png") no-repeat 3px center;
-    border:1px solid #c40000;
+
 }
 .video_list li{
     text-indent: 14px;
@@ -437,3 +444,4 @@ body {
 .video_list li a:hover{
     text-decoration: underline;
 }
+
