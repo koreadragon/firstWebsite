@@ -367,3 +367,41 @@ body {
     height:30px;
 
 }
+#search .key_text{
+    width:206px;
+    color: #ffffff;
+    line-height: 18px;
+    position: absolute;
+    top: 30px;
+    right:36px;
+
+}
+#search .key_text a{
+    color: #ffffff;
+}
+#search .key_text a:hover{
+    text-decoration: underline;
+}
+
+.triangle_up,.triangle_down_red,.triangle_down_gray{
+    position: absolute;
+    width:0px;
+    height:0px;
+    overflow: hidden;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+
+}
+.triangle_up{
+
+    border-bottom: 4px solid #ca0309;
+}
+.triangle_down_red{
+
+    border-top: 4px solid #ca0309;
+
+}
+.triangle_down_gray{
+
+    border-top: 4px solid #c4bdbd;
+}
