@@ -588,7 +588,7 @@ body {
 
 .list_section li{
     height:27px;
-    border-bottom:1px dotted #dadada;
+    border-top:1px dotted #dadada;
     line-height: 27px;
     background:url("imgs/main/dot.png") no-repeat 5px center;
     vertical-align: middle;/*解决IE6 bug*/
@@ -620,6 +620,7 @@ body {
 .list_section .title{
     background: none;
     color: #999;
+    border-top: none;/*去掉上边线*/
 
 }
 .list_section .title .col1{
