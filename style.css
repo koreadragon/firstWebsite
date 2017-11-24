@@ -520,7 +520,7 @@ body {
     color: #bb0d0d;
 }
 .hot_list p{
-    color: #e6e6e6;
+    color: #666666;
     line-height: 16px;
 }
 
@@ -591,11 +591,14 @@ body {
     border-bottom:1px dotted #dadada;
     line-height: 27px;
     background:url("imgs/main/dot.png") no-repeat 5px center;
-    text-indent: 14px;
+    vertical-align: middle;/*解决IE6 bug*/
+
 }
 
 .list_section li a {
     color: #333;
+    float: left;/*或者 display: block;，目的是清除父类写的公共样式，让a 标签成为布局对象，接受text-indent属性*/
+    text-indent: 14px;
 }
 
 .list_section li a:hover {
@@ -608,3 +611,57 @@ body {
 .list_section li a span {
     color: #c75d61;
 }
+.list_section .col1,.list_section .col2,.list_section .col3{
+    float: left;
+}
+.list_section .col2,.list_section .col3{
+    text-align: center;
+}
+.list_section .title{
+    background: none;
+    color: #999;
+
+}
+.list_section .title .col1{
+    text-align: center;
+}
+
+.side_section .col1{
+    width:137px;
+}
+
+.side_section .col2{
+    width:35px;
+
+}
+.side_section .col3{
+    width:36px;
+}
+
+/*单独处理头部col2颜色*/
+.list_section .title .col2{
+    background: none;
+    color: #999;
+}
+
+.list_section .title .col1{
+    text-align: center;
+
+}
+
+
+.section .col1{
+    width:273px;
+}
+
+.section .col2{
+    width:35px;
+
+}
+.section .col2 img{
+    position: relative;
+    top:3px;
+    width:20px;
+    height:20px;
+}
+
