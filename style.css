@@ -70,7 +70,8 @@ body{
     margin:0 auto;
 
 }
-#search, .section, .side_section, .ad_border, #footer{
+/*圆角*/
+#search, .section, .side_section, .ad_border, #footer,.activity,.recommend{
     border:1px solid #dbdbdb;
     border-radius: 6px;
 }
@@ -657,12 +658,216 @@ body {
 
 .section .col2{
     width:35px;
-
 }
 .section .col2 img{
     position: relative;
     top:3px;
     width:20px;
     height:20px;
+}
+
+.wrap_section1{
+    padding-bottom: 5px;
+}
+.wrap_section2{
+    padding-bottom: 2px;
+}
+.wrap_section2 li{
+    border-bottom: 1px dotted #dadada;
+    padding-bottom: 10px;
+    margin-bottom:10px;
+
+}
+.wrap_section3{
+    padding-bottom: 1px;
+}
+.wrap_section3 .pic_list{
+    padding-bottom: 10px;
+}
+.wrap_section4{
+    padding-bottom: 10px;
+}
+.wrap_section4 .pic_list{
+    overflow: hidden;
+}
+.wrap_section4 .pic_list li{
+    float: left;
+    width:107px;
+    height:150px;
+}
+.wrap_section4 .pic_list h3{
+    line-height:30px;
+}
+.soso{
+    border-top: 1px dotted #dadada;
+    height:47px;
+    border-bottom: 10px;
+    padding: 17px 0 0 10px;
+}
+.soso strong{
+    color: #595959;
+    padding-top: 3px;
+}
+.soso strong,.soso .text,.soso .button{
+    float: left;
+}
+.soso .text {
+    width: 172px;
+    height: 20px;
+    border: 1px solid #9c9c9c;
+    line-height: 20px;
+    color: #9c9c9c;
+    padding:0 4px;
+}
+
+.soso .button{
+    width:24px;
+    height:24px;
+    border:none;
+    background: url("imgs/main/go_btn.png");
+    margin-left: 10px;
+}
+
+.pic_list{
+
+}
+.pic_list li{
+    overflow: hidden;
+}
+.pic_list .img{
+    width:96px;
+    height:73px;
+    position: relative;
+}
+.pic_list .img a{
+    display: block;
+    width:90px;
+    height:67px;
+    padding:2px;
+    border: 1px solid #dadada ;
+}
+.pic_list .img a:hover{
+    border-color: #d80000;
+}
+.pic_list .text{
+    width:108px;
+}
+.pic_list .text h3{
+
+}
+.pic_list .text h3 a{
+    color: #d80000;
+    font-weight: normal;
+    font-size: 12px;
+}
+.pic_list .text h3 a:hover{
+    text-decoration:underline;
+}
+.pic_list .text p{
+    color: #999999;
+}
+.pic_list .text p a{
+    color: #666666;
+}
+.pic_list .text p a:hover{
+    color: #d80000;
+    text-decoration: underline;
+
+}
+.wrap_section2 li{
+    border-bottom: 1px dotted #dadada;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.new_title{
+    height:70px;
+    position: relative;
+    background:url("imgs/main/strawberry_coffee.png");
+}
+.new_title strong,.new_title span{
+    position: absolute;
+    left: 24px;
+
+}
+.new_title span{
+    font-size: 24px;
+    color: orange;
+    top:31px;
+}
+.new_title strong{
+    color: black;
+    font-size: 12px;
+    font-family: Arial;
+    top:19px;
+}
+.new_title em{
+    font-size: 36px;
+    font-weight: bold;
+    color: #ec1c16;
+    position: absolute;
+    left: 125px;
+    top:16px;
+}
+.activity{
+    width:348px;
+    float: left;
+}
+
+.activity {
+
+}
+.activity .con{
+
+}
+.activity .info{
+
+}
+.activity .img{
+
+}
+.activity .text{
+
+}
+.activity .info h3{
+
+}
+.activity .info em{
+
+}
+.activity .info span{
+
+}
+.activity p{
+
+}
+
+.calender {
+
+}
+.calender h3{
+
+}
+.calender h3 span{
+
+}
+.calender ol {
+
+}
+.calender ol li {
+
+}
+.calender .normal{
+
+}
+.calender .active{
+
+}
+.calender .img{
+
+}
+.recommend{
+    width: 348px;
+    float: right;
 }
 
